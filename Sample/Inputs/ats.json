@@ -1,0 +1,43 @@
+{
+  "ats_id": "A-1001",
+  "candidate_name": "Jane Doe",
+  "current_title": "Senior Software Engineer, Backend Platform",
+  "contact": {
+    "mail": "jane.doe@example.com",
+    "tel": "+1 415 555 0132"
+  },
+  "location": {
+    "city": "San Francisco",
+    "state": "California",
+    "country": "United States"
+  },
+  "social": {
+    "github": "https://github.com/janedoe",
+    "linkedin": "https://linkedin.com/in/janedoe"
+  },
+  "years_of_experience": 8,
+  "skill_tags": ["Python", "js", "React", "postgres", "AWS"],
+  "work_history": [
+    {
+      "org": "Acme Corp",
+      "role": "Senior Software Engineer",
+      "from": "2020-03",
+      "to": "present",
+      "notes": "Leads the backend platform team."
+    },
+    {
+      "org": "Initech",
+      "role": "Software Engineer",
+      "from": "Jan 2017",
+      "to": "2020-02"
+    }
+  ],
+  "education": [
+    {
+      "school": "State University",
+      "degree": "B.S.",
+      "major": "Computer Science",
+      "grad_year": 2016
+    }
+  ]
+}

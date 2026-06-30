@@ -1,0 +1,18 @@
+{
+  "user": {
+    "login": "janedoe",
+    "name": "Jane Doe",
+    "bio": "Backend engineer. Open-source enthusiast.",
+    "location": "San Francisco",
+    "html_url": "https://github.com/janedoe",
+    "blog": "https://janedoe.dev",
+    "public_repos": 24,
+    "email": null
+  },
+  "repos": [
+    { "name": "svc-core", "language": "Python" },
+    { "name": "ui-kit", "language": "TypeScript" },
+    { "name": "infra", "language": "Go" },
+    { "name": "legacy-scripts", "language": null }
+  ]
+}

@@ -1,0 +1,15 @@
+Jane Doe
+jane.doe@example.com | +1 (415) 555-0132 | San Francisco, CA
+
+Summary:
+Senior software engineer with eight years building backend platforms and APIs.
+
+Skills:
+Python, JavaScript, React, PostgreSQL, Docker, Kubernetes
+
+Experience:
+Acme Corp - Senior Software Engineer (2020 - present)
+Initech - Software Engineer (2017 - 2020)
+
+Education:
+State University, B.S. Computer Science, 2016
