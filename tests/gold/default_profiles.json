@@ -1,0 +1,282 @@
+[
+  {
+    "candidate_id": "cand_82291c8ea08a",
+    "full_name": "John Smith",
+    "emails": [
+      "john.smith@example.org"
+    ],
+    "phones": null,
+    "location": {
+      "city": null,
+      "region": null,
+      "country": null
+    },
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": null,
+    "years_experience": null,
+    "skills": null,
+    "experience": [
+      {
+        "company": "Globex",
+        "title": "Product Manager",
+        "start": null,
+        "end": null,
+        "summary": null
+      }
+    ],
+    "education": null,
+    "overall_confidence": 0.85,
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "recruiter_csv",
+        "method": "csv_column:name"
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_csv",
+        "method": "csv_column:email"
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_csv",
+        "method": "csv_column:current_company+title"
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_a3caddb38202",
+    "full_name": "Jane Doe",
+    "emails": [
+      "jane.doe@example.com"
+    ],
+    "phones": [
+      "+14155550132"
+    ],
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "US"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/janedoe",
+      "github": "https://github.com/janedoe",
+      "portfolio": "https://janedoe.dev",
+      "other": []
+    },
+    "headline": "Senior Software Engineer, Backend Platform",
+    "years_experience": 8.0,
+    "skills": [
+      {
+        "name": "AWS",
+        "confidence": 0.9,
+        "sources": [
+          "ats_json"
+        ]
+      },
+      {
+        "name": "Docker",
+        "confidence": 0.7,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "Go",
+        "confidence": 0.6,
+        "sources": [
+          "github"
+        ]
+      },
+      {
+        "name": "JavaScript",
+        "confidence": 0.97,
+        "sources": [
+          "ats_json",
+          "resume"
+        ]
+      },
+      {
+        "name": "Kubernetes",
+        "confidence": 0.7,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "PostgreSQL",
+        "confidence": 0.97,
+        "sources": [
+          "ats_json",
+          "resume"
+        ]
+      },
+      {
+        "name": "Python",
+        "confidence": 0.988,
+        "sources": [
+          "ats_json",
+          "resume",
+          "github"
+        ]
+      },
+      {
+        "name": "React",
+        "confidence": 0.97,
+        "sources": [
+          "ats_json",
+          "resume"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "confidence": 0.6,
+        "sources": [
+          "github"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Initech",
+        "title": "Software Engineer",
+        "start": "2017-01",
+        "end": "2020-02",
+        "summary": null
+      },
+      {
+        "company": "Acme Corp",
+        "title": "Senior Software Engineer",
+        "start": "2020-03",
+        "end": null,
+        "summary": "Leads the backend platform team."
+      }
+    ],
+    "education": [
+      {
+        "institution": "State University",
+        "degree": "B.S.",
+        "field": "Computer Science",
+        "end_year": 2016
+      }
+    ],
+    "overall_confidence": 0.9838,
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "json_field:candidate_name"
+      },
+      {
+        "field": "headline",
+        "source": "ats_json",
+        "method": "json_field:current_title"
+      },
+      {
+        "field": "years_experience",
+        "source": "ats_json",
+        "method": "json_field:years_of_experience"
+      },
+      {
+        "field": "location",
+        "source": "ats_json",
+        "method": "json_field:location.city"
+      },
+      {
+        "field": "location",
+        "source": "ats_json",
+        "method": "json_field:location.state"
+      },
+      {
+        "field": "location",
+        "source": "ats_json",
+        "method": "json_field:location.country"
+      },
+      {
+        "field": "links",
+        "source": "ats_json",
+        "method": "json_field:social.linkedin"
+      },
+      {
+        "field": "links",
+        "source": "ats_json",
+        "method": "json_field:social.github"
+      },
+      {
+        "field": "links",
+        "source": "github",
+        "method": "github_api:user.blog"
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "json_field:contact.mail"
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_csv",
+        "method": "csv_column:email"
+      },
+      {
+        "field": "emails",
+        "source": "resume",
+        "method": "regex:email"
+      },
+      {
+        "field": "phones",
+        "source": "ats_json",
+        "method": "json_field:contact.tel"
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "csv_column:phone"
+      },
+      {
+        "field": "phones",
+        "source": "resume",
+        "method": "regex:phone"
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "json_field:skill_tags"
+      },
+      {
+        "field": "skills",
+        "source": "resume",
+        "method": "section:skills"
+      },
+      {
+        "field": "skills",
+        "source": "github",
+        "method": "github_api:repo.language"
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_csv",
+        "method": "csv_column:current_company+title"
+      },
+      {
+        "field": "experience",
+        "source": "ats_json",
+        "method": "json_field:work_history[]"
+      },
+      {
+        "field": "education",
+        "source": "ats_json",
+        "method": "json_field:education[]"
+      },
+      {
+        "field": "education",
+        "source": "resume",
+        "method": "section:education"
+      }
+    ]
+  }
+]
