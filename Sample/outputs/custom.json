@@ -1,0 +1,30 @@
+[
+  {
+    "full_name": "John Smith",
+    "primary_email": "john.smith@example.org",
+    "phone": null,
+    "skills": null,
+    "github": null,
+    "country": null,
+    "overall_confidence": 0.85
+  },
+  {
+    "full_name": "Jane Doe",
+    "primary_email": "jane.doe@example.com",
+    "phone": "+14155550132",
+    "skills": [
+      "AWS",
+      "Docker",
+      "Go",
+      "JavaScript",
+      "Kubernetes",
+      "PostgreSQL",
+      "Python",
+      "React",
+      "TypeScript"
+    ],
+    "github": "https://github.com/janedoe",
+    "country": "US",
+    "overall_confidence": 0.9838
+  }
+]
