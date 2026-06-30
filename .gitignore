@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+build/
+dist/
+.DS_Store
+
+# Personal / non-repo files (kept locally, not part of the submission repo)
+Docs_for_me.md
+Multi-Source_Candidate_Data_Transformer.md
+docs/_preview.pdf
+docs/build_design_pdf.py
